@@ -1,0 +1,13 @@
+@import "_variables";
+@import "_mixins";
+@import "_function";
+
+@each $key,$value in $colores-cuadrados{
+	.cuadrado-#{$key}{
+		background: $value;
+		width: 100px;
+		height: 100px;
+		border: 1px dashed lighten($value,65%);
+		display: block;
+	}
+}

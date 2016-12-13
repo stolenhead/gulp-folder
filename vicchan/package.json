@@ -1,0 +1,19 @@
+{
+  "name": "vicchan",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stolenhead",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.1"
+  }
+}
